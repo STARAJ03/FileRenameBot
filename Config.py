@@ -11,7 +11,7 @@ class Config(object):
     # log channel
     #LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "")
     # Get these values from my.telegram.org
-    CHAT_ID = os.environ.get("CHAT_ID", "")
+    CHAT_ID = os.environ.get("CHAT_ID", "1116405290")
     # Array to store users who are authorized to use the bot
     AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
     # Banned Unwanted Members..
@@ -38,5 +38,5 @@ class Config(object):
     # watermark file
     DEF_WATER_MARK_FILE = ""
     # Database url
-    DB_URI = os.environ.get("DATABASE_URL", "")
+    DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://allclashwithaj:8LbUD7YVEL96JpOt@cluster0.xmdob.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     
